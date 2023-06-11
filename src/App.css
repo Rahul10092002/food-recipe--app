@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  padding: 10px;
+  padding-top: 0px;
+color: white;
+width: 95vw;
+border-radius: 10px;
+background-color: cornflowerblue;
+   /* background-image: url(https://thumbs.dreamstime.com/z/professional-chef-prepares-shrimps-greens-cooking-seafood-healthy-vegetarian-food-dark-background-horizonta-131215090.jpg);  */
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTo5Nj7T73EwkNWdtt_jQBxIpktnz3WJB12w&usqp=CAU);
+}

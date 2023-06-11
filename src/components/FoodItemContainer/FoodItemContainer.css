@@ -1,0 +1,28 @@
+.RecipeList{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 20px;
+    margin: 10px 15px;
+    align-items: center;
+    
+}
+.Input{
+    width: 40%;
+}
+li{
+    list-style: none;
+}
+/* for mobile */
+@media screen and (max-device-width: 500px) {
+    .Input{
+   
+    width: 80%;
+    }
+}
+/* for tablet */
+@media screen and (min-device-width: 450px)
+and (max-device-width: 924px) {
+    .Input{
+        width: 80%;
+    }
+}

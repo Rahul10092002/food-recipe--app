@@ -1,0 +1,80 @@
+.singleItem {
+  display: flex;
+
+  background-color: #0f0233;
+  border-radius: 5px;
+}
+.left-part {
+  width: 30%;
+  background-color: #042b2b;
+}
+
+.item-img img {
+  width: 100%;
+  border-radius: 2%;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 10px;
+  margin-bottom: 2px;
+  gap: 5px;
+}
+.ingredient-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 7px;
+}
+.list {
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+  width: 100%;
+}
+.list li {
+  display: inline-tablev;
+}
+/* for mobile */
+@media screen and (max-device-width: 640px) {
+  .singleItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .left-part {
+    width: 100%;
+  }
+  .item-info {
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .ingredient-info {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    margin: 0px;
+  }
+  .list {
+    padding: 5%;
+    width: 80%;
+    list-style: none;
+  }
+  .list h4 {
+    margin: 3px 5px;
+  }
+}
+/* for tablet */
+@media screen and (min-device-width: 650px) and (max-device-width: 1024px) {
+  .left-part {
+    width: 60%;
+  }
+}
